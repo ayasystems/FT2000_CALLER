@@ -126,9 +126,9 @@ void setup() {
   defineInput(pttIN,LOW);
   defineInput(rigTX,HIGH);
   
-  defineInput(bt1,LOW);
-  defineInput(bt2,LOW);
-  defineInput(bt3,LOW);
+  defineInput(bt1,HIGH);
+  defineInput(bt2,HIGH);
+  defineInput(bt3,HIGH);
 //leemos la configuracion antes de apagar  
   readMssValue();   
   readBeaconTime(); 
